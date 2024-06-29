@@ -25,7 +25,7 @@ li:hover{
     color:white;
 }
 
-nav button{
+nav input{
   padding:8px 7px;
   border:1px solid rgba(223, 177, 177, 0.925);
   color: rgba(223, 177, 177, 0.925);
@@ -97,12 +97,12 @@ main{
     li{
         background-color: white;
     }
-    nav button{
+    nav input{
         width:100%;
         margin-bottom: 10px;
         text-align: center;
     }
-    nav button:active{
+    nav input:active{
         box-shadow: inset 2px 2px 4px rgba(82, 79, 79, 0.89);
     }
     .row{
