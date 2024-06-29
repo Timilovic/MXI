@@ -5,7 +5,7 @@ body{
 
 header{
     background-color: black;
-    height: 70px;
+    height: 50px;
 }
 
 nav{
@@ -25,11 +25,8 @@ li:hover{
     color:white;
 }
 
-nav input{
-  padding:8px 7px;
-  border:1px solid rgba(223, 177, 177, 0.925);
-  color: rgba(223, 177, 177, 0.925);
-  border-radius:5px;
+.my-custom-btn{
+    color:#ff5f6d
 }
 
 main{
@@ -51,13 +48,6 @@ main{
     width:95%;
 }
 
-.col button{
-    width:100%;
-    padding:6px auto;
-    border-style: none;
-    border-radius: 4px;
-    font-size: 19px;
-}
 
 .footer{
     /* height:50px; */
@@ -100,13 +90,8 @@ main{
     li{
         background-color: white;
     }
-    nav input{
-        width:100%;
-        margin-bottom: 10px;
-        text-align: center;
-    }
-    nav input:active{
-        box-shadow: inset 2px 2px 4px rgba(82, 79, 79, 0.89);
+    .my-custom-btn{
+        width: 100%;
     }
     .row{
         flex-direction: row;
